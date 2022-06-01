@@ -1,0 +1,107 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+.parent{
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    display: flex;
+}
+
+.image{
+    height: 100%;
+    width: 120px;
+    margin: 8px;
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.image img{
+    height: 70%;
+    width: 70;
+}
+
+.container{
+    height: 100%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 18px;
+}
+
+.address{
+    font-weight: bold;
+}
+
+.ind img{
+    height: 30%;
+    width: 80%;
+}
+
+.ind{
+    margin-top: 28px;
+    /* margin-left: 820px; */
+    background-color: aquamarine;
+}
+
+.sign{
+    color: white;
+    margin-top: 18px;
+    margin-left: 80px;
+}
+
+.list{
+    font-weight: bold;
+}
+
+.ret{
+    color: white;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+.cart img{
+    height: 30%;
+}
+
+.cart{
+    margin-top: 18px;
+    /* margin-left: 200px; */
+}
+
+
+.c_text{
+    color: white;
+    margin-top: 28px;
+}
+
+.car{
+    font-weight: bold;
+}
+
+
+.orders{
+    font-weight: bold;
+}
+
+.search-parent{
+    width: 1000px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+}
+.search-parent input{
+    width: 100%;
+    padding: 1rem;
+}
